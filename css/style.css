@@ -3,11 +3,35 @@ body {
     padding: 0%;
     margin: 0%;
     font-family: 'arial', Times, serif, Helvetica, sans-serif;
-    background-color: #656565;
+    background-color: #cdcdcd;
     text-align: center;
 }
 
 h1{
     text-align: center;
-    color: #0c0c0c;
+    color: #c32c2c;
+}
+
+h2{
+    text-align: center;
+    color: #c32c2c;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
 }
